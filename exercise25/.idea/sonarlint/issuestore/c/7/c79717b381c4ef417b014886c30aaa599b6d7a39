@@ -1,0 +1,24 @@
+
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷ö«Ä
+A
+java:S1172"+Remove this unused method parameter "pass".(÷ö«Ä
+;
+java:S1659"%Declare "numbers" on a separate line.(×ŸÂÛ
+F
+java:S1659"0Declare "special_characters" on a separate line.(×ŸÂÛ
+D
+java:S1659".Declare "total_characters" on a separate line.(×ŸÂÛ
+B
+java:S1481",Remove this unused "letters" local variable.(×ŸÂÛ
+B
+java:S1481",Remove this unused "numbers" local variable.(×ŸÂÛ
+M
+java:S1481"7Remove this unused "special_characters" local variable.(×ŸÂÛ
+K
+java:S1481"5Remove this unused "total_characters" local variable.(×ŸÂÛ
+Q	java:S125"<This block of commented-out lines of code should be removed.(¹Ÿô·
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(¬Í„ä
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ŸÂÛ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ŸÂÛ
+f
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(¾«œÛıÿÿÿÿ

@@ -1,0 +1,14 @@
+
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÁŒ
+<
+java:S1172"&Remove these unused method parameters.(ğÁŒ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(—÷ªèüÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(œ®¡Éÿÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Ğö
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Ğö
+t
+java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "result".(ìş“
+^
+java:S1226"IIntroduce a new variable instead of reusing the parameter "first_phrase".(¹¨ºw
+e
+java:S1226"JIntroduce a new variable instead of reusing the parameter "second_phrase".(”Ø–àùÿÿÿÿ
