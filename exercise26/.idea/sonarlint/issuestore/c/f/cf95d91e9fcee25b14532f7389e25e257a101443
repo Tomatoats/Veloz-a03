@@ -1,0 +1,19 @@
+
+g	java:S116"RRename this field "Balance" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘À
+R
+java:S1854"<Remove this useless assignment to local variable "payments".(·Š­ê
+M
+java:S1854"7Remove this useless assignment to local variable "bal".(¨Ğ»·
+X
+java:S1854"=Remove this useless assignment to local variable "dailyrate".(Ù’ºúıÿÿÿÿ
+I
+java:S1481".Remove this unused "dailyrate" local variable.(Ù’ºúıÿÿÿÿ
+>
+java:S1481"(Remove this unused "bal" local variable.(¨Ğ»·
+C
+java:S1481"-Remove this unused "payments" local variable.(·Š­ê
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(¿­«Ù
+k	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë¨ˆ•ÿÿÿÿÿ
+k	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë¨ˆ•ÿÿÿÿÿ
+]
+java:S2184"BCast one of the operands of this addition operation to a "double".(ƒçÔÓÿÿÿÿÿ
