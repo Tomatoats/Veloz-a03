@@ -1,0 +1,7 @@
+
+S	java:S106
+"9Replace this use of System.out or System.err by a logger.(¶Û¼Íøÿÿÿÿ
+_
+java:S1854"=Remove this useless assignment to local variable "userArray".(ÑöÐùÿÿÿÿÿ8»Ö™¼Ä/
+P
+java:S1481".Remove this unused "userArray" local variable.(ÑöÐùÿÿÿÿÿ8»Ö™¼Ä/

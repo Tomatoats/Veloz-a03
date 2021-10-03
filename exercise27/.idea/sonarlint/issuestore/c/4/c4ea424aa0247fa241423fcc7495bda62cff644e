@@ -1,0 +1,10 @@
+
+S	java:S106	"9Replace this use of System.out or System.err by a logger.(¶Û¼Íøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¶Û¼Íøÿÿÿÿ
+W
+java:S1854#"<Remove this useless assignment to local variable "userinfo".(ì¾ñ®ýÿÿÿÿ
+H
+java:S1481#"-Remove this unused "userinfo" local variable.(ì¾ñ®ýÿÿÿÿ
+]
+java:S1192"GDefine a constant instead of duplicating this literal "psuedo" 4 times.(òý¯÷
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ööê–
