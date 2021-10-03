@@ -1,9 +1,7 @@
 
-H
-java:S1172"-Remove this unused method parameter "prompt".(³«”Àşÿÿÿÿ
+Z	java:S106
+"9Replace this use of System.out or System.err by a logger.(¶Û¼Íøÿÿÿÿ8ÍëíÄ/
 b
-java:S1854#"@Remove this useless assignment to local variable "useranagrams".(œšÙÙøÿÿÿÿ8¥Š»ğÂ/
+java:S1854%"@Remove this useless assignment to local variable "useranagrams".(æ°¤Èøÿÿÿÿ8ÿ¤ëÄ/
 S
-java:S1481#"1Remove this unused "useranagrams" local variable.(œšÙÙøÿÿÿÿ8±Š»ğÂ/
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”½Öêùÿÿÿÿ
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ¶ÿóøÿÿÿÿ
+java:S1481%"1Remove this unused "useranagrams" local variable.(æ°¤Èøÿÿÿÿ8¥ëÄ/

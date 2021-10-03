@@ -1,5 +1,6 @@
 package baseline;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Solution33 {
@@ -22,10 +23,11 @@ public class Solution33 {
          */
 
         //take in the string from the user.
-        String Userquestion = readStringsFromUser("psuedo");
+        String Userquestion = readStringsFromUser("What is your question, Oh great one?");
 
         //make an int that is then equal to a random number generator from 1-4
-        int random = 0;
+        Random rand = new Random();
+        int random = rand.nextInt(4)+1;
 
         //take that int to another class
         Eightball useranswer = new Eightball(random);

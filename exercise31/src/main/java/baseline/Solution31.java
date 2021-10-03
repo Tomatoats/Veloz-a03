@@ -10,6 +10,11 @@ public class Solution31  {
         System.out.println(prompt);
         //ask for int and return an int.
         //while the user doesn't give us numbers,
+        while (!in.hasNextInt())
+        {
+            System.out.println("Please give me a whole number");
+            in.next();
+        }
         //keep em looping until we get a valid int.
         return in.nextInt();
     }
@@ -24,9 +29,9 @@ public class Solution31  {
          */
 
         //take in resting heart rate and Age.
-        int RestingHeartRate = readFromUser("psuedo");
-        int Age = readFromUser("psuedo");
+        int restingHeartRate = readFromUser("What is your resting heart rate?");
+        int age = readFromUser("What is your age?");
 
-        TargetCalculator userTarget = new TargetCalculator(RestingHeartRate,Age);
+        TargetCalculator userTarget = new TargetCalculator(restingHeartRate,age);
     }
 }

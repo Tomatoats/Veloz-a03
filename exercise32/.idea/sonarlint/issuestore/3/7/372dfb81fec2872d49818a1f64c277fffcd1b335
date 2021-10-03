@@ -1,11 +1,11 @@
 
-p	java:S116"VRename this field "GameVersion" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒºåûÿÿÿÿ
+:
+java:S1118"Hide this public constructor.(Î±¾ç8½ü§Ä/
 S	java:S106"9Replace this use of System.out or System.err by a logger.(¶Û¼Íøÿÿÿÿ
-E
-java:S1481"*Remove this unused "guess" local variable.(ÅûÈÃúÿÿÿÿ
-L
-java:S1481"1Remove this unused "totalGuesses" local variable.(Ô§íÆûÿÿÿÿ
-Q	java:S125"<This block of commented-out lines of code should be removed.(âø¡
-N	java:S106A"9Replace this use of System.out or System.err by a logger.(Ú¨Œğ
-b
-java:S1192"GDefine a constant instead of duplicating this literal "psuedo" 3 times.(êÿø›øÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ½æÎ
+S	java:S106;"9Replace this use of System.out or System.err by a logger.(¥¤àÆúÿÿÿÿ
+S	java:S106T"9Replace this use of System.out or System.err by a logger.(¥¤àÆúÿÿÿÿ
+S	java:S106m"9Replace this use of System.out or System.err by a logger.(¥¤àÆúÿÿÿÿ
+N	java:S106p"9Replace this use of System.out or System.err by a logger.(Ú¨Œğ
+|
+java:S1192;"aDefine a constant instead of duplicating this literal "you got my number in %d guesses!" 3 times.(¥¤àÆúÿÿÿÿ

@@ -1,3 +1,4 @@
+
 package baseline;
 
 import java.util.Scanner;
@@ -6,6 +7,7 @@ public class Solution24 {
     private static final Scanner in = new Scanner(System.in);
 
     private static String readFromUser(String prompt) {
+        System.out.println(prompt);
         //take in the string from the user
         return in.next();
 
@@ -25,14 +27,14 @@ public class Solution24 {
 
         //Print out  a prompt
         //initialize the strings
-        String first_phrase;
-        String second_phrase;
+        String firstPhrase;
+        String secondPhrase;
         //Take in the two strings from the user
-        first_phrase = readFromUser("What's the first string?");
-        second_phrase = readFromUser("What's the second string?");
+        firstPhrase = readFromUser("What's the first string?");
+        secondPhrase = readFromUser("What's the second string?");
 
         //take this to another class to do the actual calculations and logic
-        AnagramChecker useranagrams = new AnagramChecker(first_phrase,second_phrase);
+        AnagramChecker useranagrams = new AnagramChecker(firstPhrase,secondPhrase);
 
     }
 }

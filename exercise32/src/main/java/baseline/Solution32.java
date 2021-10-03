@@ -8,16 +8,20 @@ public class Solution32 {
     private static int readGamesFromUser(String prompt) {
         System.out.println(prompt);
         //ask for int.
-        //while the user doesn't give us numbers, [1-3]
+
+        //while the user doesn't give us numbers
+        while(!in.hasNextInt())
+        {
+            System.out.println("Please, only give us the number 1, 2, or 3");
+            in.next();
+        }
         //keep em looping until we get a valid int.
         return in.nextInt();
     }
 
     private static String readStringsFromUser(String prompt) {
         System.out.println(prompt);
-        //ask for y/n,
-        //while the user doesn't give us y or n,
-        //keep em looping until we get a valid string
+        //ask for y/n
         return in.next();
     }
 
@@ -32,19 +36,41 @@ public class Solution32 {
          */
         int gameversion = 0;
         String playagain = "";
+        String error = "Please, only give us the number 1, 2, or 3";
+        System.out.printf("Let's play Guess the number!%nDifficulty 1 has numbers 1-10.%nDifficulty 2 has numbers 1-100.%nDifficulty 3 has numbers 1-1000.%n");
         //take in the  number level that they wanted to play
-        gameversion = readGamesFromUser("psuedo");
+        gameversion = readGamesFromUser("Enter the difficulty you'd like to play! (1, 2, or 3)");
+        while (gameversion < 1 || gameversion > 3)
+        {
+            gameversion = readGamesFromUser(error);
+        }
 
         GuessingGame userGuess = new GuessingGame(gameversion);
 
         //ask user if they want to play again
-        playagain = readStringsFromUser("psuedo");
+        playagain = readStringsFromUser("Do you wish to play again? (Y/N)?");
+        while (!playagain.equals("Y") && !playagain.equals("y") && !playagain.equals("N") && !playagain.equals(("n")))
+        {
+            playagain = readStringsFromUser("Please only give me 'y' or 'n'");
+            //while the user doesn't give us y or n,
+            //keep em looping until we get a valid string
+        }
 
         //while they want to play again, take in gameversion again, do guessinggame again, then ask again
         while (playagain.equals("y") || playagain.equals("Y")) {
-            gameversion = readGamesFromUser("psuedo");
+            gameversion = readGamesFromUser("Enter the difficulty you'd like to play! (1, 2, or 3)");
+            while (gameversion < 1 || gameversion > 3)
+            {
+                gameversion = readGamesFromUser(error);
+            }
             new GuessingGame(gameversion);
-            playagain = readStringsFromUser("psuedo");
+            playagain = readStringsFromUser("Do you wish to play again? (Y/N)?");
+            while (!playagain.equals("Y") && !playagain.equals("y") && !playagain.equals("N") && !playagain.equals(("n")))
+            {
+                playagain = readStringsFromUser("Please only give me 'y' or 'n'");
+                //while the user doesn't give us y or n,
+                //keep em looping until we get a valid string
+            }
         }
     }
 }

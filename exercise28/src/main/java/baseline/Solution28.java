@@ -26,7 +26,7 @@ public class Solution28 {
             //make the for loop
             for (int i = 0; i < 5; i++) {
                 //take in the total via prompting the user and counting it up
-                total = total + readFromUser("psuedo");
+                total = total + readFromUser("Enter a number:");
             }
             //send this to a class in order to output total to user
             Output userOutput = new Output(total);

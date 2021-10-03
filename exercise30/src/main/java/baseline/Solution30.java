@@ -21,6 +21,6 @@ public class Solution30 {
         //to change this up we could make this scanned in from user to make it a certain width each times but you don't ask
 
         //send length and width to another class
-        multiplicationTable userMultiplication = new multiplicationTable(length, width);
+        MultiplicationTable userMultiplication = new MultiplicationTable(length, width);
     }
 }

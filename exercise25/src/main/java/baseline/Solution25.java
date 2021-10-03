@@ -6,6 +6,7 @@ public class Solution25 {
     private static final Scanner in = new Scanner(System.in);
 
     private static String readFromUser(String prompt) {
+        System.out.println(prompt);
         //take in the password from the user
         return in.next();
     }
@@ -24,10 +25,10 @@ public class Solution25 {
          */
 
         //initialize password string
-        String Password;
+        String password;
         //take in the string.
-        Password = readFromUser("Heyo, this is a password Checker!\nIt checks the strength of your password.\nInput in your password to find out how strong it is!");
+        password = readFromUser("Heyo, this is a password Checker!\nIt checks the strength of your password.\nInput in your password to find out how strong it is!");
         //take tis to another class to do the actual calculations.
-        PasswordChecker userpassword = new PasswordChecker(Password);
+        PasswordChecker userpassword = new PasswordChecker(password);
     }
 }

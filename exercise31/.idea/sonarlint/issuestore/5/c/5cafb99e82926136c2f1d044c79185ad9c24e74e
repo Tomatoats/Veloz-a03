@@ -1,9 +1,8 @@
 
 S	java:S106
 "9Replace this use of System.out or System.err by a logger.(¶Û¼Íøÿÿÿÿ
-Y
-java:S1854">Remove this useless assignment to local variable "userTarget".(ÿÒ¸ùÿÿÿÿ
-J
-java:S1481"/Remove this unused "userTarget" local variable.(ÿÒ¸ùÿÿÿÿ
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í–ˆĞıÿÿÿÿ
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹–¦¼
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ê·¼èÿÿÿÿÿ
+T
+java:S1854#">Remove this useless assignment to local variable "userTarget".(ÛÏè±
+E
+java:S1481#"/Remove this unused "userTarget" local variable.(ÛÏè±

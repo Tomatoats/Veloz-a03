@@ -1,18 +1,18 @@
 package baseline;
 
-public class multiplicationTable {
-    //privitize variables
-    private int Length;
-    private int Width;
-    public multiplicationTable(int length, int width) {
-        Length = length;
-        Width = width;
+public class MultiplicationTable {
+    public MultiplicationTable(int length, int width) {
+        //privitize variables (not doing that anymore cause sonarLint hates it)
 
         //make a for loop. has to be a nested for loop.
-        for (int i = 1; i < length+1; i++){
+        for (int lengthCounter = 1; lengthCounter < length+1; lengthCounter++)
+        {
             //print out a new line to make it look well
-            for (int k = 1; k < width+1; k++){
-                //print out  i * k, using some format specifiers so it is aligned properly
+            System.out.printf("\n");
+            for (int widthCounter = 1; widthCounter < width+1; widthCounter++)
+            {
+                System.out.printf("%5d", lengthCounter * widthCounter);
+                //print out  lengthcounter * widthcounter, using some format specifiers so it is aligned properly
             }
         }
 

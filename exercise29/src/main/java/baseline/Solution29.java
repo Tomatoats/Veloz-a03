@@ -7,9 +7,14 @@ public class Solution29 {
     private static Double readFromUser(String prompt) {
         System.out.println(prompt);
         //ask for the double.
-        //while it's not a digit [0-9], and it isn't 0,
+
+        //while it's not a digit [0-9], or  it is 0,
+        // it'll print out its a non valid input
+        while (!in.hasNextDouble()){
+            System.out.println("Sorry, that's not a valid input.");
+            in.next();
+        }
         // it will return that double
-        //else, it'll print out its a non valid input
         return in.nextDouble();
     }
 
@@ -25,8 +30,11 @@ public class Solution29 {
          */
 
         //create double Rate
-        double Rate = readFromUser("psuedo");
-
+        double Rate = readFromUser("What is the rate of return in your investment?");
+        while (Rate == 0)
+        {
+            Rate = readFromUser("Sorry, that's not a valid input.");
+        }
         //make another class to calculate the years to double your return.
         ReturnCalculator userReturn = new ReturnCalculator(Rate);
 

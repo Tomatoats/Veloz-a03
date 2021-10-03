@@ -1,11 +1,12 @@
 
-S	java:S106	"9Replace this use of System.out or System.err by a logger.(¶Û¼Íøÿÿÿÿ
+S	java:S106
+"9Replace this use of System.out or System.err by a logger.(¶Û¼Íøÿÿÿÿ
 T
-java:S1854">Remove this useless assignment to local variable "useranswer".(Œ‚ØÎ
+java:S1854!">Remove this useless assignment to local variable "useranswer".(Œ‚ØÎ
 [
-java:S1854"@Remove this useless assignment to local variable "Userquestion".(ÑüØÎıÿÿÿÿ
+java:S1854"@Remove this useless assignment to local variable "Userquestion".(ˆáÔıÿÿÿÿ
 L
-java:S1481"1Remove this unused "Userquestion" local variable.(ÑüØÎıÿÿÿÿ
+java:S1481"1Remove this unused "Userquestion" local variable.(ˆáÔıÿÿÿÿ
 E
-java:S1481"/Remove this unused "useranswer" local variable.(Œ‚ØÎ
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑüØÎıÿÿÿÿ
+java:S1481!"/Remove this unused "useranswer" local variable.(Œ‚ØÎ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆáÔıÿÿÿÿ
