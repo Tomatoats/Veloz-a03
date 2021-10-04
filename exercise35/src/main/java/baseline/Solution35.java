@@ -29,14 +29,14 @@ public class Solution35 {
         ArrayList<String> totalNames =new ArrayList<String>();
         String name;
 
-        name = readStringsFromUser("psuedo");
+        name = readStringsFromUser("Enter a name:");
         //while a name doesn't equal "blank", take in more names
         while (!name .equals(""))
         {
             totalNames.add(name);
             counter++;
             //use the counter so we know how many elements are in the array list
-            name = readStringsFromUser("psuedo");
+            name = readStringsFromUser("Enter a name:");
         }
         //send to a class to figure out the winner
 

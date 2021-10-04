@@ -24,9 +24,9 @@ public class Solution37 {
         if we need it, we'll add it to our char array. if not, we'll ask for another random character
          */
         //prompt user for length, special characters, and numbers
-        int length = readAmountFromUser("psuedo");
-        int specialCharacters = readAmountFromUser("psuedo");
-        int numbers = readAmountFromUser("psuedo");
+        int length = readAmountFromUser("What's the minimum length?");
+        int specialCharacters = readAmountFromUser("How many Special Characters?");
+        int numbers = readAmountFromUser("How many numbers?");
 
         //send this to another class
         PasswordGenerator userPassword = new PasswordGenerator(length, specialCharacters, numbers);

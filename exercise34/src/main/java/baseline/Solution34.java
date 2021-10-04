@@ -32,10 +32,10 @@ public class Solution34 {
         employeeNames[4] = "Jeremy Goodwin";
 
         //tell users the employees via a print
-
+        //System.out.printf("There are 5 employees:%n%s%n%s%n%s%n%s%n%s%n", employeeNames[0],employeeNames[1],employeeNames[2],employeeNames[3],employeeNames[4],employeeNames[5]);
         //take in from user
-        String toRemove = readStringsFromUser("psuedo");
 
+        String toRemove = readStringsFromUser("Enter an employee name to remove:");
         //make a while loop in which if toRemove doesn't equal any of the  names,
         //make em scan in something else again
 

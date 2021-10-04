@@ -10,11 +10,6 @@ public class Solution27 {
         return in.next();
     }
 
-    private static int readAmountFromUser(String prompt) {
-        //take in ints from a user
-        System.out.println(prompt);
-        return in.nextInt();
-    }
 
     public static void main(String[] args) {
         /*
@@ -26,10 +21,28 @@ public class Solution27 {
          aaaaaaaaaand yeah */
 
         //take in first name, last name, zip code, employeeID
-        String firstName = readStringsFromUser("psuedo");
-        String lastName = readStringsFromUser("psuedo");
-        int ZIPcode = readAmountFromUser("psuedo");
-        String employeeID = readStringsFromUser("psuedo");
+        String firstName = readStringsFromUser("Enter the first name:");
+        String lastName = readStringsFromUser("Enter the last name:");
+        String ZIPstring = readStringsFromUser("Enter the ZIP code:");
+        //make sure ZIPcode is an int
+        int character;
+        int counter = 0;
+        int ZIPcode = 1000;
+        for (int i = 0; i < ZIPstring.length(); i++)
+        {
+
+            character = (int) (ZIPstring.charAt(i));
+            if (character > 64 && character < 91)
+            {
+                counter++;
+            }
+        }
+        if (counter == ZIPstring.length())
+        {
+            ZIPcode = Integer.parseInt(ZIPstring);
+        }
+
+        String employeeID = readStringsFromUser("Enter the employee ID:");
 
         //take the variables to a newwclass
         Verifier userinfo = new Verifier(firstName,lastName,ZIPcode,employeeID);

@@ -8,6 +8,7 @@ public class Solution38 {
     private static String readAmountFromUser(String prompt) {
         //take in ints from a user
         System.out.println(prompt);
+
         return in.next();
     }
 
@@ -23,9 +24,9 @@ public class Solution38 {
          */
 
         //prompt the user to give us a list of numbers
-        String numberString = readAmountFromUser("psuedo");
+        String numberString = readAmountFromUser("Enter a list of numbers, seperated by spaces");
 
-        String[] numberArray =  numberString.split("\\s*, \\s*");
+        String[] numberArray =  numberString.split(" ");
         //send this string to another class to figure out which ones are even
 
         ArrayManipulator userArray = new ArrayManipulator(numberArray);

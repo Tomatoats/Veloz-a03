@@ -1,40 +1,53 @@
 
-V
-java:S1854"@Remove this useless assignment to local variable "isZip5digits".(¦ë•
+=
+java:S1125"'Remove the unnecessary boolean literal.(°ÉÔÁ
+=
+java:S1125"'Remove the unnecessary boolean literal.(ìƒ¤©
+B
+java:S1125 "'Remove the unnecessary boolean literal.(†§†çúÿÿÿÿ
+B
+java:S1125&"'Remove the unnecessary boolean literal.(˜µ¹·øÿÿÿÿ
+B
+java:S1125-"'Remove the unnecessary boolean literal.(ãê—´øÿÿÿÿ
+=
+java:S11254"'Remove the unnecessary boolean literal.(ÓÅ¶÷
+<
+java:S11258"'Remove the unnecessary boolean literal.(•œüd
+<
+java:S11258"'Remove the unnecessary boolean literal.(•œüd
+<
+java:S11258"'Remove the unnecessary boolean literal.(•œüd
+<
+java:S11258"'Remove the unnecessary boolean literal.(•œüd
+<
+java:S11258"'Remove the unnecessary boolean literal.(•œüd
+<
+java:S11258"'Remove the unnecessary boolean literal.(•œüd
+\
+java:S1126F"AReplace this if-then-else statement by a single return statement.(ÅÎ½ºüÿÿÿÿ
+V	java:S125E"<This block of commented-out lines of code should be removed.(ÙŠ ıÿÿÿÿ
+<
+java:S1905X"&Remove this unnecessary cast to "int".(æò
+<
+java:S1905b"&Remove this unnecessary cast to "int".(æò
+<
+java:S1905l"&Remove this unnecessary cast to "int".(æò
+\
+java:S1126t"AReplace this if-then-else statement by a single return statement.(ˆÆ‰Úøÿÿÿÿ
+\
+java:S1126"AReplace this if-then-else statement by a single return statement.(¨Ëëóùÿÿÿÿ
 X
-java:S1854"BRemove this useless assignment to local variable "isProperFormat".(¤Õä
-_
-java:S1854"DRemove this useless assignment to local variable "lastNameFilledIn".(İ¬ï§ÿÿÿÿÿ
-i
-java:S1854"NRemove this useless assignment to local variable "lastNameAtLeast2Characters".(Ñ•íÂıÿÿÿÿ
-[
-java:S1854"ERemove this useless assignment to local variable "firstNameFilledIn".(ùúÉê
-e
-java:S1854"ORemove this useless assignment to local variable "firstNameAtLeast2Characters".(²‘½•
-V
-java:S1481"@Remove this unused "firstNameAtLeast2Characters" local variable.(²‘½•
-L
-java:S1481"6Remove this unused "firstNameFilledIn" local variable.(ùúÉê
-Z
-java:S1481"?Remove this unused "lastNameAtLeast2Characters" local variable.(Ñ•íÂıÿÿÿÿ
-P
-java:S1481"5Remove this unused "lastNameFilledIn" local variable.(İ¬ï§ÿÿÿÿÿ
-I
-java:S1481"3Remove this unused "isProperFormat" local variable.(¤Õä
-G
-java:S1481"1Remove this unused "isZip5digits" local variable.(¦ë•
-D
-java:S1172".Remove this unused method parameter "ziPcode".(ÊİÌĞ
-V	java:S125"<This block of commented-out lines of code should be removed.(ÙŠ ıÿÿÿÿ
-G
-java:S1172 "1Remove this unused method parameter "employeeID".(¾ˆ‘é
-@
-java:S1172'"+Remove this unused method parameter "Name".(éŠÔr
-F
-java:S1172,"+Remove this unused method parameter "Name".(±»ö¤úÿÿÿÿ
-S	java:S1067"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ
+java:S1126Š"AReplace this if-then-else statement by a single return statement.(Ü™‰å
+T	java:S106š"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ
 k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Üî°ûÿÿÿÿ
-e	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éŠÔr
-k	java:S117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±»ö¤úÿÿÿÿ
-e	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰›®
-e	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰›®
+e	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İèÙ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓŸáŒ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±‚î¨ıÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÅ†«
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²©ºÁ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆˆÂõ
+e	java:S117}"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éŠÔr
+l	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±»ö¤úÿÿÿÿ
+f	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰›®
+f	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰›®
