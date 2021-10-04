@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Solution29 {
 
-    private static Double readFromUser(String prompt) {
+    public static Double readFromUser(String prompt) {
         System.out.println(prompt);
         //ask for the double.
 
@@ -18,7 +18,7 @@ public class Solution29 {
         return in.nextDouble();
     }
 
-    private static final Scanner in = new Scanner(System.in);
+    public static final Scanner in = new Scanner(System.in);
     public static void main(String[] args) {
         /*
          *  UCF COP3330 Fall 2021 Assignment 3 Solution 29

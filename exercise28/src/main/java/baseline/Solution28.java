@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Solution28 {
         private static final Scanner in = new Scanner(System.in);
 
-        private static Double readFromUser(String prompt) {
+        public static Double readFromUser(String prompt) {
             System.out.println(prompt);
             //ask for int and return an int.
             return in.nextDouble();
@@ -26,7 +26,7 @@ public class Solution28 {
             //make the for loop
             for (int i = 0; i < 5; i++) {
                 //take in the total via prompting the user and counting it up
-                total = total + readFromUser("Enter a number:");
+                total += readFromUser("Enter a number:");
             }
             //send this to a class in order to output total to user
             Output userOutput = new Output(total);

@@ -8,3 +8,5 @@ V
 &src/main/java/baseline/Solution30.java,3\9\39a521ca6004d2de0a7f6aab8bcf1656a9905e2f
 _
 /src/main/java/baseline/MultiplicationTable.java,f\1\f1868a21383125a15833501bade9f8757fa952a0
+P
+ src/test/java/MultTableTest.java,4\1\41181a829046bf827fe6c87d41ee9ed58908bef9

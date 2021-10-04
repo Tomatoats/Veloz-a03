@@ -28,7 +28,7 @@ public class Solution26 {
 
     public static void main(String[] args) {
         /*
-         *  UCF COP3330 Fall 2021 Assignment 2 Solution 23
+         *  UCF COP3330 Fall 2021 Assignment 2 Solution 26
          *  Copyright 2021 Alexys Veloz
          */
         /*Alrighty bois so for this one we're finding how long it takes to
@@ -43,13 +43,13 @@ public class Solution26 {
         Solution26 app = new Solution26();
 
         //Get balance
-        double balance= app.readFromUser("psuedo");
+        double balance= app.readFromUser("What is your balance?");
 
         //get APR
-        double APR = app.readFromUser("psuedo");
+        double APR = app.readFromUser("What is the APR on the card (as a percent)?");
 
         //get monthly payment
-        double Monthly_Payment = app.readFromUser("psuedo");
+        double Monthly_Payment = app.readFromUser("What is the monthly payment you can make?");
         //all of these set commands will include a readFromUser function in order to get user input
 
         //then we'll take these and put it into Payment Calculator

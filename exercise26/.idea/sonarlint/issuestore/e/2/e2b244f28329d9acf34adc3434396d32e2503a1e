@@ -1,21 +1,21 @@
 
-|
-java:S4144"aUpdate this method so that its implementation is not identical to "setMonthlyPayment" on line 13.(ëæ¡ôøÿÿÿÿ
+ƒ
+java:S4144"aUpdate this method so that its implementation is not identical to "setMonthlyPayment" on line 13.(ëæ¡ôøÿÿÿÿ8¶ŒÜ¢Ä/
 w
 java:S4144"aUpdate this method so that its implementation is not identical to "setMonthlyPayment" on line 13.(Ôåñ÷
 Z	java:S106	"9Replace this use of System.out or System.err by a logger.(¶Û¼Íøÿÿÿÿ8¸€÷¥Ã/
 U
 java:S18548"?Remove this useless assignment to local variable "userpayment".(¢¯Ô
 W
-java:S2209."5Change this instance-reference to a static reference.(»è”Ôúÿÿÿÿ8¯ÄÚ¤Ã/
-R
-java:S22091"5Change this instance-reference to a static reference.(ƒâ¯Ñ8÷Ú¤Ã/
-R
-java:S22094"5Change this instance-reference to a static reference.(ëáá·8¢Û¤Ã/
+java:S2209."5Change this instance-reference to a static reference.(à½­“üÿÿÿÿ8¯ÄÚ¤Ã/
+W
+java:S22091"5Change this instance-reference to a static reference.(¤’ƒîüÿÿÿÿ8÷Ú¤Ã/
+W
+java:S22094"5Change this instance-reference to a static reference.(ó­Õşÿÿÿÿ8¢Û¤Ã/
 F
 java:S14818"0Remove this unused "userpayment" local variable.(¢¯Ô
 N
-java:S1128",Remove this unused import 'java.time.Month'.(¤‚Éøÿÿÿÿ8Ç€÷¥Ã/
+java:S1128",Remove this unused import 'java.time.Month'.(¤‚Éøÿÿÿÿ8ÕŒÜ¢Ä/
 S
 java:S1144"6Remove this unused private "setMonthlyPayment" method.(çÂÍà8ã”Ú¤Ã/
 M
@@ -23,12 +23,12 @@ java:S1144"+Remove this unused private "setAPR" method.(ëæ¡ôøÿÿÿÿ8ô´Ù¤Ã/
 L
 java:S1144"/Remove this unused private "setBalance" method.(Ôåñ÷8–èØ¤Ã/
 ]
-java:S1192"GDefine a constant instead of duplicating this literal "psuedo" 6 times.(èèÆô
-f	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒâ¯Ñ
-f	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëáá·
+java:S1192"GDefine a constant instead of duplicating this literal "psuedo" 3 times.(èèÆô
+k	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤’ƒîüÿÿÿÿ
+k	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó­Õşÿÿÿÿ
 o
 java:S1488"YImmediately return this expression instead of assigning it to the temporary variable "x".(èèÆô
 o
 java:S1488"YImmediately return this expression instead of assigning it to the temporary variable "x".(èèÆô
-o
-java:S1488"YImmediately return this expression instead of assigning it to the temporary variable "x".(èèÆô
+v
+java:S1488"YImmediately return this expression instead of assigning it to the temporary variable "x".(èèÆô8ÕŒÜ¢Ä/

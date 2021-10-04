@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class AnagramChecker {
 
-    private String stringManipulation(String phrase){
+    public static String stringManipulation(String phrase){
         //anagrams don't care about capitalization so I'll sanitize them here
         phrase = phrase.toLowerCase();
         //so that it doesn't care about capitalization
@@ -20,7 +20,7 @@ public class AnagramChecker {
         //return sorted phrase
         return new String(arrayPhrase);
     }
-    private String isAnagram(String phrase1, String phrase2) {
+    public static String isAnagram(String phrase1, String phrase2) {
         String result = "";
 
         //we're gonna mess around with the strings and sort it in another  function

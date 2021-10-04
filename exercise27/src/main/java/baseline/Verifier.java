@@ -3,7 +3,7 @@ package baseline;
 public class Verifier {
 
 
-    private String validateInput(String firstName, String lastName, int ZIPcode, String employeeID) {
+    public static String validateInput(String firstName, String lastName, int ZIPcode, String employeeID) {
         ////initialize a string to use later for the result
         String result =  "";
         //use these little strings to build one big string later
@@ -31,7 +31,7 @@ public class Verifier {
         boolean lastNameFilledIn = filledIn(lastName);
         if (lastNameFilledIn == false)
         {
-            Check3 = "The last name must be filled in\n";
+            Check3 = "The last name must be filled in.\n";
         }
 
         boolean lastNameAtLeast2Characters = atLeast2Characters(lastName);
@@ -65,7 +65,7 @@ public class Verifier {
         return result;
     }
 
-    private boolean onlyFiveDigits(int ziPcode) {
+    public static boolean onlyFiveDigits(int ziPcode) {
         //if it isn't between 10000 and 99999, return false;
         if (ziPcode <= 9999 || ziPcode >=100000) {
             return false;
@@ -75,12 +75,15 @@ public class Verifier {
         }
     }
 
-    private boolean idChecker(String employeeID) {
+    public static boolean idChecker(String employeeID) {
         //make a counter
         int counter = 0;
         int character;
         //make string a char array
         //make a for loop for element 0 and 1,
+        if (employeeID.length() >7){
+            return false;
+        }
         for (int i = 0; i < 7; i++)
         {
             if (i < 2)
@@ -122,7 +125,7 @@ public class Verifier {
         }
     }
 
-    private boolean filledIn(String Name) {
+    public static boolean filledIn(String Name) {
         //if name is equal to blank, return false. otherwise return true
         if (Name .isEmpty())
         {
@@ -133,7 +136,7 @@ public class Verifier {
         }
     }
 
-    private boolean atLeast2Characters(String Name) {
+    public static boolean atLeast2Characters(String Name) {
         //if the string length isn't above 1, return false
         if (Name.length() < 2)
         {

@@ -3,7 +3,7 @@ package baseline;
 
 public class PasswordChecker {
 
-    private int passwordValidator(String pass) {
+    public static int passwordValidator(String pass) {
         //initialize that int number
 
         int answer = 0;
@@ -58,7 +58,7 @@ public class PasswordChecker {
     }
 
 
-    private String results(int answer) {
+    public static String results(int answer) {
         //set up new string
         String result = "";
         //set up a switch with the answer int.
