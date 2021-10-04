@@ -1,0 +1,28 @@
+
+8
+java:S1118+"Hide this public constructor.(ìÊŒºÿÿÿÿÿ
+V	java:S125	"<This block of commented-out lines of code should be removed.(•Èéûøÿÿÿÿ
+I
+java:S1172".Remove this unused method parameter "counter".(ƒüà øÿÿÿÿ
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(—üÈËÿÿÿÿÿ8òõµÈÄ/
+U	java:S1066"9Replace this use of System.out or System.err by a logger.(ÒÑÒÁ8óõµÈÄ/
+Z	java:S1067"9Replace this use of System.out or System.err by a logger.(Ùß§Øıÿÿÿÿ8ôõµÈÄ/
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(™Æèªüÿÿÿÿ8ôõµÈÄ/
+’
+java:S1319"wThe type of the "totalNumbers" object should be an interface such as "List" rather than the implementation "ArrayList".(Ô«¦‰øÿÿÿÿ
+’
+java:S1319"wThe type of the "totalNumbers" object should be an interface such as "List" rather than the implementation "ArrayList".(ƒüà øÿÿÿÿ
+Œ
+java:S1319"wThe type of the "totalNumbers" object should be an interface such as "List" rather than the implementation "ArrayList".(í“ìj
+’
+java:S1319"wThe type of the "totalNumbers" object should be an interface such as "List" rather than the implementation "ArrayList".(‹ÊÒúÿÿÿÿ
+’
+java:S1319+"wThe type of the "totalNumbers" object should be an interface such as "List" rather than the implementation "ArrayList".(ìÊŒºÿÿÿÿÿ
+u
+java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "average".(¶°‘ì
+q
+java:S1488"[Immediately return this expression instead of assigning it to the temporary variable "min".(¹éÈî
+q
+java:S1488"[Immediately return this expression instead of assigning it to the temporary variable "max".(ñæäÍ
+v
+java:S1488'"[Immediately return this expression instead of assigning it to the temporary variable "std".(æõ„ùÿÿÿÿ

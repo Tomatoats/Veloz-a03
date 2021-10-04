@@ -1,0 +1,15 @@
+
+S	java:S106
+"9Replace this use of System.out or System.err by a logger.(¶Û¼Íøÿÿÿÿ
+S
+java:S1854C"=Remove this useless assignment to local variable "userstats".(ÆÖéí
+t
+java:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(´«óãýÿÿÿÿ
+<
+java:S1905."&Remove this unnecessary cast to "int".(ÒÃŽ®
+J
+java:S2440C"4Remove this instantiation of "StatisticsCalculator".(ÆÖéí
+D
+java:S1481C".Remove this unused "userstats" local variable.(ÆÖéí
+M
+java:S1144"7Remove this unused private "parseInputFromUser" method.(á˜³¾
