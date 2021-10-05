@@ -8,3 +8,5 @@ V
 &src/main/java/baseline/Solution32.java,b\d\bd879f0038f65cacac80a75883d242ae15f31cbf
 X
 (src/main/java/baseline/GuessingGame.java,3\7\372dfb81fec2872d49818a1f64c277fffcd1b335
+O
+src/test/java/GuessingTest.java,b\d\bda778988ee7c362a41c1761fe37c853e45f37ef
