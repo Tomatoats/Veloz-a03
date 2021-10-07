@@ -1,0 +1,4 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Æƒƒ«
+‹
+java:S1319"uThe type of the "totalNames" object should be an interface such as "List" rather than the implementation "ArrayList".(ŸÒíº

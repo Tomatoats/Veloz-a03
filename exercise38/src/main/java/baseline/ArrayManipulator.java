@@ -4,7 +4,7 @@ import java.lang.reflect.Array;
 
 public class ArrayManipulator {
     //not gonna privatize anymore since sonarlint hates it for some reason
-    private int[] parseArray(String[] numberArray, int numberArraySize) {
+    public static int[] parseArray(String[] numberArray, int numberArraySize) {
         //take in array and parse it element by element
         int tempnumber;
 
@@ -18,7 +18,7 @@ public class ArrayManipulator {
         return intArray;
     }
 
-    private int[] filterEvenNumbers(int[] numberIntArray, int numberArraySize) {
+    public static int[] filterEvenNumbers(int[] numberIntArray, int numberArraySize) {
         //in a for loop from 0 to the size of the array,
         int counter = 0;
         //get the size of the even array

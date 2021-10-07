@@ -1,12 +1,7 @@
 
-<
-java:S1172"&Remove these unused method parameters.(¿´÷Ø
-A
-java:S1172"&Remove these unused method parameters.(Ó¥‘ÿúÿÿÿÿ
-G
-java:S1481!"1Remove this unused "evenIntArray" local variable.(×ìåþ
-{
-java:S1488
-"`Immediately return this expression instead of assigning it to the temporary variable "intArray".(”ƒ”»üÿÿÿÿ
-w
-java:S1488"aImmediately return this expression instead of assigning it to the temporary variable "evenArray".(¸¿Äô
+3
+java:S11181"Hide this public constructor.(‰´’þ
+@
+java:S3457="%String contains no format specifiers.(‹Âýÿÿÿÿ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(‹Âýÿÿÿÿ
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(åñÍ½

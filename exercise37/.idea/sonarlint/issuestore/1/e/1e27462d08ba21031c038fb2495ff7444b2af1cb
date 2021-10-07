@@ -1,0 +1,8 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¶Û¼Íøÿÿÿÿ
+V
+java:S1854 "@Remove this useless assignment to local variable "userPassword".(àÌ§¬
+G
+java:S1481 "1Remove this unused "userPassword" local variable.(àÌ§¬
+^
+java:S1128"<Remove this unused import 'java.net.PasswordAuthentication'.(µßºåûÿÿÿÿ8Äõ¸ÃÅ/
